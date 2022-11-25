@@ -22,14 +22,14 @@
 const container = document.querySelector(".container");
       for(var i=0; i<=50; i++) {
       const blocks = document.createElement("div");
-    blocks.classList.add("block");
+    blocks.classList.add("circle");
     container.appendChild(blocks); //この時点でまだ丸は現れてない
 }
     
     
 function animateBlocks() {
  anime({
-        targets: ".block",
+        targets: ".circle",
       translateX: function() {
  return anime.random(-800, 700);
       translateY: function() {
