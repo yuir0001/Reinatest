@@ -16,11 +16,10 @@
 <script src="anime.min.js"></script>
 <script>
 const container = document.querySelector(".container");
-for(var i=0; i<=50; i++) {
-
-    const blocks = document.createElement("div");
+      for(var i=0; i<=50; i++) {
+      const blocks = document.createElement("div");
     blocks.classList.add("block");
-    container.appendChild(blocks);
+    container.appendChild(blocks); //この時点でまだ丸は現れてない
 }
 function animateblocks() {
  anime({
