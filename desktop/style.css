@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border-width: 0px;
+    border-style: solid;
+    margin: 0;
+    line-height: 1;
+    list-style-type: none;
+  }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(red, green, blue);
+
+}
+
+h2 {
+    color: azure;
+    font-size: 7rem;
+    text-align: center;
+
+
+}
