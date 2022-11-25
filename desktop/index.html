@@ -25,10 +25,12 @@ const container = document.querySelector(".container");
     blocks.classList.add("block");
     container.appendChild(blocks); //この時点でまだ丸は現れてない
 }
-function animateblocks() {
+    
+    
+function animateBlocks() {
  anime({
         targets: ".block",
- translateX: function() {
+      translateX: function() {
  return anime.random(-800, 700);
       translateY: function() {
  return anime.random(-500, 700);
@@ -38,7 +40,7 @@ function animateblocks() {
    }  
  });
 }
-    animateblocks(); 
+    animateBlocks(); 
 </script>
 </body>
 </html>
