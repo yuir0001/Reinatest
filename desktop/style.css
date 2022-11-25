@@ -29,12 +29,13 @@ h2 {
 
 }
 
-.block {
-    position: absolute;
+.block {　//creating green circle here
+   
+    position: absolute;    
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: green;
+    background: chartreuse;
     box-shadow: 10px 10px 50px black;
 
 }
