@@ -11,7 +11,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(red, green, blue);
+    min-height: 100vh;
+    background: chocolate;
 
 }
 
