@@ -16,10 +16,24 @@ body {
 
 }
 
+.container {
+　position: absolute;
+}
+
+
 h2 {
     color: black;
     font-size: 9rem;
     text-align: center;
 
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height 100px;
+    border-radius: 50%;
+    background: green;
+    box-shadow: 10px 10px 50px black;
 
 }
